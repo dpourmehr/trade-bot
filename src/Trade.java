@@ -36,6 +36,7 @@ public class Trade extends Task<ClientContext> {
             }
         }
 
+        ctx.widgets.widget(162).component(12).interact("Public: Off");
         ctx.widgets.widget(162).component(24).click();
 
         this.t = new Timer();
